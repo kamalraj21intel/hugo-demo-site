@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://kamalraj21intel.github.io/hugo-demo-site/
 languageCode: en-us 
 title: Acme Corporation 
 theme: Eclectic 
@@ -22,6 +22,8 @@ menu:
       url: /contact 
       weight: 200 
 params: 
+#GitHub repo URL of your site
+  gitRepo: https://github.com/kamalraj21intel/hugo-demo-site 
   color: "#4f46e5"
   copyright: "Copyright &copy; 2022 Acme Corporation.
     All Rights Reserved."
