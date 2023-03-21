@@ -24,8 +24,8 @@ jobs:
       - name: Build
         run: hugo --minify --baseURL=https://kamalraj21intel.github.io/hugo-demo-site/
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Hugo setup
+        uses: peaceiris/actions-hugo@v2.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
